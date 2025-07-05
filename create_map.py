@@ -6,11 +6,11 @@ import math
 
 
 excel_path = Path(
-    r"C:\Users\BenediktZarl\OneDrive - Deutsche Bahn\98_Arbeitsumgebung\Kranke Tour\2025\Lose_2025.xlsx"
+    r"C:\Users\BenediktZarl\OneDrive - Deutsche Bahn\98_Arbeitsumgebung\Kranke Tour\2025\KT2025-Logbuch-ZÜG.xlsx"
 )
 
 # Load Excel file (update filename as needed)
-df = pd.read_excel(excel_path, sheet_name="Losmaschine")
+df = pd.read_excel(excel_path, sheet_name="Tour 2025 gezogen")
 output_dir = excel_path.parent
 
 
